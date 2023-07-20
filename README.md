@@ -8,6 +8,4 @@ We have used instances of Ubuntu 18.04 and CentOS 7 for deploying our services o
 
 We used **Elastic Load Balancer** from AWS EC2 to balance the load on the AWS server. This has been used as a repacement for Nginx.
 
-Finally, we use the ELB endpoint to connect to our domain ```python
-*.aws-proj-schconj.me
-``` to display the app on port 8080 from tomcat instances. Also we made the tomcat instance autoscaling to automatically manage it as per the requests.
+Finally, we use the ELB endpoint to connect to our domain to display the app on port 8080 from tomcat instance. Also we made the tomcat instance autoscaling to automatically manage it as per the requests.
